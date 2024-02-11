@@ -41,5 +41,5 @@ The uniqueness of our app lies in its comprehensive and personalized approach to
 - Questions according to Job Descriptions
 - Coding Question
 
-  ### Future Scope
-  We will include a bias mitigation feature, which will help candidates to identify any racial discrimination or any bias being faced during the interview.
+### Future Scope
+We will include a bias mitigation feature, which will help candidates to identify any racial discrimination or any bias being faced during the interview.
