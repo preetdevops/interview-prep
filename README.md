@@ -41,4 +41,4 @@ The uniqueness of our app lies in its comprehensive and personalized approach to
 - Questions according to Job Descriptions
 
 ### Future Scope
-We will include a bias mitigation feature, which will help candidates prepare to identify any racial discrimination or any bias being faced during the interview.
+First, the feature that we will include is sentimental analysis, so that we can track the emotions of the candidates and tell them about the areas of improvement. We will include a bias mitigation feature, which will help candidates prepare to identify any racial discrimination or any bias being faced during the interview.
