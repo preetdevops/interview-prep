@@ -1,7 +1,6 @@
 import { CreateSessionButton } from "../flows/create-session";
 import { SectionContainer } from "../layouts/section-container";
 import { ViewContainer } from "../layouts/view-container";
-import { Button } from "../ui/button";
 import { Heading } from "../ui/typography";
 
 export default function HomeHeader() {

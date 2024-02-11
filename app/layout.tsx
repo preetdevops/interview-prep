@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs'
+import { CreateNewSessionContextProvider } from "@/providers/create-new-session-provider";
+import { SessionContextProvider } from "@/providers/session-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,11 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
-          {children}
+          <CreateNewSessionContextProvider>
+            <SessionContextProvider>
+              {children}
+            </SessionContextProvider>
+          </CreateNewSessionContextProvider>
         </body>
       </html>
     </ClerkProvider>
